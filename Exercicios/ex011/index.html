@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <h1>Tente abrir esse site em vários deispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegaor.</h1>
+<picture>
+      <source media="(max-width:750px)" srcset="imagens/images-full-300.jpg" type="image/png">
+      <source media="(max-width:1050px)" srcset="imagens/images-full-700.jpg" type="image/png">
+     
+      <img src="imagens/images-full-1000.jpg" alt="img-full">
+      
+      
+      <h1>Reproduzindo Áudio</h1>
+      <p>Vamos aprender reproduzir áudios em HTML5</p>
+
+      <audio src="mdia/Áudio-michell.opus" controls autoplay></audio>
+       
+
+      <h1>Essa e outra forma de colocar Audio no seu site</h1>
+
+                       <p>pode colocar dessa forma &#8595</p>
+                      
+             <audio preload="metadada" autoplay controls>
+     <source src="mdia/Racing Trains - Casa Rosa's Tulum Vibes.ogg" type="audio/mpeg">
+     <source src="mdia/Racing Trains - Casa Rosa's Tulum Vibes.mp3" type="audio/ogg">
+     <p>Infelismente seu navegador nao consegue reproduzir audio <a href="mdia/Racing Trains - Casa Rosa's Tulum Vibes.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
+
+ </audio>       
+                      
+
+
+
+
+
+</picture>
+</body>
+</html>

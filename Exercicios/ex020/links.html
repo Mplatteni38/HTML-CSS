@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+a {
+    color: rgba(236, 15, 15, 0.781);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    text-decoration: underline chartreuse;
+    color: black;
+}
+
+a:active{
+    color: cyan;
+}
+
+a::before{
+    content: '☻';
+    color: black;
+
+}
+
+a::after{
+    content: ' ✉';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(10, 230, 127);
+    
+}
+div >p{
+    display: none;
+}
+
+div:hover >p{
+    display: block;
+    color: blue;
+}
+you::before{
+    content: '✘';
+}
+
+you::after{
+content: '✘';
+
+
+}
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul type="square">
+        <li><a href="https://github.com/Mplatteni38" target="_blank">Repositorio Github</a></li>
+        <div>
+            <li class="you"> <a href=""><del>Canal do YouTube</del></a></li>
+            <p>🔗 Meu link está riscado porque ainda não tenho um canal no YouTube. Mas não se preocupe — em breve terei!
+                💪 E aí, você consegue fazer esse exercício também? Tenho certeza que sim!</p>
+        </div>
+        
+            <li><a href="https://www.instagram.com/m.platteni?igsh=eWZnMWZ3MDBseDRw" target="_blank">Instagran</a></li>
+           
+       
+    </ul>
+</body>
+</html>
