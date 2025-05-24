@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(imagens/background001.jpg);
+    height: 94vh;
+    background-position:  center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+.caixa-topo{
+    background-color: black;
+        color: white;
+        text-align: center;
+        padding: 65px;
+     
+        
+        
+    }
+
+    h1{
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    padding-bottom: 40px;
+    }
+    a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+    }
+    a:hover{
+    text-decoration: underline rgb(255, 0, 0);   
+    }
+section p{
+font-family:Sriracha, cursive;  
+font-size: 27px;  
+font-style: normal;
+font-weight: bolder;
+Line-Height: 54px;
+white-space: pre-line;
+padding: 15px;
+margin-left: 15px;
+
+}
+.caixa-01 {
+    background-color: white;
+
+}
+
+.caixa-01 p {
+
+font-size: 3em;  
+font-style: normal;
+font-weight: 27px;
+Line-Height: 54px;
+padding-left: 15px;
+line-height: 1.9;
+
+
+}
+
+
+.caixa-02 p{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.377);
+    
+    width: 600px;
+    height: 700px;
+  font-size: 40px;  
+font-style: normal;
+font-weight: bolder;
+Line-Height: 54px;
+line-height: 2.0;
+margin-top: 80px;
+
+
+    
+      
+}
+
+.caixa-03 {
+    background-color: white;
+    
+  
+
+}
+
+.caixa-03 p{
+    font-size: 40px;  
+font-style: normal;
+font-weight: bolder;
+Line-Height: 54px;
+line-height: 2.3;
+margin-top: 80px;
+
+}
+
+
+.segunda-parte{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+   background-position: center;
+   background-repeat: repeat;
+   background-attachment: fixed;
+   
+}
+
+
+
+.caixa-04{
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    width: 600px;
+    height: 600px;
+    margin-left: 15px;
+    margin-top: 95px;
+   
+   
+    
+}
+.caixa-04 p{
+    font-size: 30px;
+   
+    margin-top: 2;
+    padding: 10px;
+    margin-bottom: 15px;
+    line-height: 2.5;
+     align-items: center; 
+     justify-content: center;
+   
+}
+.caixa-06{
+    background-color: white;
+  margin-top: 100px;
+
+
+}
+
+.caixa-06 p{
+    font-size: 3em;  
+font-style: normal;
+font-weight: 27px;
+Line-Height: 54px;
+padding-left: 15px;
+line-height: 1.9;
+}
+
+.rodape{
+    font-size: 30px;
+    background-color: black;
+    margin-top: 50px;
+    padding-top: -12px;
+  
+    margin: -13px;
+    color: white;
+    right bottom: 50px;
+}
+
+.rodape p{
+    text-align: center;
+    font-weight:bold ;
+    font-style: normal;
+    padding-bottom: 15px;
+
+}
+
