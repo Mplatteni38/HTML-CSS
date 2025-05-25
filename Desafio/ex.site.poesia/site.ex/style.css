@@ -29,7 +29,7 @@ header p{
 padding-bottom: 50px;
 }
 section{
- font-size: 3.2vw;   
+ font-size: 3.9vw;   
 font-family:"Sriracha", cursive;
 padding-top: 10vh;
 padding-bottom: 10vh;
@@ -46,11 +46,13 @@ background-color: white;
     
 }
 .imagem{
+  
 background-color: rgba(10, 9, 9, 0.747);
 color: white;
 box-shadow: inset 5px 6px 14px 2px rgba(0, 0, 0, 0.575);
 background-size: cover; 
-    
+background-attachment: fixed;
+
 }
 
 .imagem p{
@@ -62,15 +64,18 @@ text-shadow: 2px 2px 0px rgb(0, 0, 0);
 }
 #imagem01{
 background-image: url(background001.jpg); 
-background-position:right center;
-background-attachment: fixed;  
+background-position:center;
+background-size: cover;
+
 
 
 }
 #imagem02{
-    background-image: url(background002.jpg);
+background-image: url(background002.jpg);
+background-size: cover;
 background-position: right center;
-background-attachment: fixed;  
+
+ 
 
 }
 
