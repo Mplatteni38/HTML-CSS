@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    color: rgb(82, 50, 112);
+}
+
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro Formulario</h1>
+    <!-- isso aqui embaixo action e para emvio php.. eo autocomplete= off para nao ficar aparecendo o nome altumatico e o method= post.. e para nao aparecer os dados da cliente na url-->
+    <form action="cadastro.php" autocomplete="off" method="post">
+
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+
+<p><label for="isobrenome">Sobrenome: </label><input type="text" name="sobrenome" id="isobrenome"></p>
+
+<p><input type="submit" value="Enviar"></p>
+    </form>
+    
+</body>
+</html>
