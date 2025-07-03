@@ -1,0 +1,1 @@
+Aprenda php para fazer essa configuraçao
